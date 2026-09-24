@@ -11,6 +11,8 @@
 [![Code style](https://img.shields.io/badge/lint-flake8%20clean-brightgreen?style=flat)](setup.cfg)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
 
+![](https://github.com/RafaelGallo/Model-ML-Pred-DNA-Classification/blob/main/img/001.png?raw=true)
+
 An end-to-end unsupervised machine learning project on DNA sequence data:
 exploratory analysis, dimensionality reduction (**PCA**, **t-SNE**), clustering
 (**K-Means**, **Agglomerative**), and an **Isolation Forest** anomaly detector
