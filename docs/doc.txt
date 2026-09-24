@@ -1,0 +1,90 @@
+DNA Classification dataset
+
+About Dataset
+This dataset contains 3,000 synthetic DNA samples with 13 features designed for genomic data analysis, machine learning, and bioinformatics research. Each row represents a unique DNA sample with both sequence-level and statistical attributes.
+
+🔹 Dataset Structure
+
+Rows: 3,000
+
+Columns: 13
+
+🔹 Features Description
+
+Sample_ID → Unique identifier for each DNA sample
+
+Sequence → DNA sequence (string of A, T, C, G)
+
+GC_Content → Percentage of Guanine (G) and Cytosine (C) in the sequence
+
+AT_Content → Percentage of Adenine (A) and Thymine (T) in the sequence
+
+Sequence_Length → Total sequence length
+
+Num_A → Number of Adenine bases
+
+Num_T → Number of Thymine bases
+
+Num_C → Number of Cytosine bases
+
+Num_G → Number of Guanine bases
+
+kmer_3_freq → Average 3-mer (triplet) frequency score
+
+Mutation_Flag → Binary flag indicating mutation presence (0 = No, 1 = Yes)
+
+Class_Label → Class of the sample (Human, Bacteria, Virus, Plant)
+
+Disease_Risk → Risk level associated with the sample (Low / Medium / High)
+
+🔹 Potential Use Cases
+
+DNA classification tasks (e.g., predicting species from DNA sequence features)
+
+Exploratory Data Analysis (EDA) in bioinformatics
+
+Machine Learning model development (Logistic Regression, Random Forest, SVM, Neural Networks)
+
+Deep Learning approaches (LSTM, CNN, Transformers for sequence learning)
+
+Mutation detection and disease risk analysis
+
+Teaching and practicing biological data preprocessing techniques
+
+🔹 Why This Dataset?
+
+Synthetic but realistic structure, inspired by genomics data
+
+Balanced and diverse distribution of features and labels
+
+Suitable for beginners and researchers to practice classification, visualization, and model comparison
+
+🔹 Example Research Questions
+
+Can we classify DNA samples into their biological class using sequence-based features?
+
+How does GC content relate to mutation risk?
+
+Which ML model performs best for DNA classification tasks?
+
+Can synthetic DNA features predict disease risk categories?
+
+📌 Acknowledgment
+
+This dataset is synthetic and generated for educational & research purposes. It does not represent real patient data.
+
+
+synthetic_dna_dataset.csv
+Sample_ID
+Sequence
+GC_Content
+AT_Content
+Sequence_Length
+Num_A
+Num_T
+Num_C
+Num_G
+kmer_3_freq
+Mutation_Flag
+Class_Label
+Disease_Risk

@@ -1,0 +1,19 @@
+site_name: DNA Sequence Classification
+site_description: >-
+  Multiclass classification of synthetic DNA samples into Bacteria, Human,
+  Plant, or Virus, with a leakage-free scikit-learn pipeline, a ten-model
+  comparison, a hyperparameter search, and a Streamlit prediction app.
+site_author: Rafael Gallo
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
